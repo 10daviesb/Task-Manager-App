@@ -14,7 +14,7 @@ Manage your daily tasks easily:
 ---
 
 ## 📸 Screenshots
-*(Optional: You can add screenshots of your app window here!)*
+*soon™*
 
 ---
 
@@ -35,7 +35,7 @@ Manage your daily tasks easily:
 1. Make sure you have **Python 3.x** installed.
 2. Clone or download this repository:
     ```bash
-    git clone https://github.com/your-username/task-manager-gui.git
+    git clone https://github.com/10daviesb/task-manager-gui.git
     cd task-manager-gui
     ```
 3. Install required packages (all standard libraries, no external requirements).
