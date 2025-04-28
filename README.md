@@ -60,4 +60,11 @@ Manage your daily tasks easily:
 
 ## 📄 File Structure
 
-task-manager-gui/ ├── screenshots/ # Folder containing app screenshots │ ├── task_manager_light_mode.png │ └── task_manager_dark_mode.png ├── task_manager_gui.py # Main Python GUI application ├── icon.ico # Custom icon for the app window ├── README.md # Project overview and usage guide ├── LICENSE # MIT License for open-source use
+task-manager-gui/ 
+├── screenshots/                            # Folder containing app screenshots 
+│ ├── task_manager_light_mode.png 
+│ └── task_manager_dark_mode.png 
+├── task_manager_gui.py                     # Main Python GUI application 
+├── icon.ico                                # Custom icon for the app window 
+├── README.md                               # Project overview and usage guide 
+├── LICENSE                                 # MIT License for open-source use
