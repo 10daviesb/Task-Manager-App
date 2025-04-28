@@ -167,6 +167,30 @@ def check_all_completed():
     if tasks and all(task["completed"] for task in tasks):
         messagebox.showinfo("Congratulations!", "All tasks completed! Great job!")
 
+# --- Context Menu Functions ---
+def show_context_menu(event):
+    selected = task_listbox.nearest(event.y)
+    if selected >= 0:
+        task_listbox.selection_clear(0, tk.END)
+        task_listbox.selection_set(selected)
+        context_menu.delete(0, tk.END)
+
+        index = selected
+        if tasks[index]["completed"]:
+            context_menu.add_command(label="Mark as Incomplete ✅", command=complete_task)
+        else:
+            context_menu.add_command(label="Mark as Complete ❌", command=complete_task)
+
+        context_menu.add_separator()
+        context_menu.add_command(label="✏️ Edit Task", command=edit_task)
+        context_menu.add_separator()
+        context_menu.add_command(label="🗑️ Delete Task", command=delete_task)
+
+        try:
+            context_menu.tk_popup(event.x_root, event.y_root)
+        finally:
+            context_menu.grab_release()
+
 # --- GUI Setup ---
 root = tk.Tk()
 root.title("Task Manager")
@@ -219,7 +243,7 @@ task_listbox = tk.Listbox(root, height=10)
 task_listbox.pack(fill='both', expand=True, pady=10)
 task_listbox.bind("<Delete>", delete_task)
 task_listbox.bind("<<ListboxSelect>>", update_complete_button_text)
-task_listbox.bind("<Button-3>", context_menu)
+task_listbox.bind("<Button-3>", show_context_menu)
 
 # Bottom Frame
 bottom_frame = tk.Frame(root)
