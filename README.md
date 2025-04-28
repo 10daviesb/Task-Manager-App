@@ -63,8 +63,8 @@ Manage your daily tasks easily:
 ```
 task-manager-gui/ 
 ├── screenshots/                            # Folder containing app screenshots 
-│ ├── task_manager_light_mode.png 
-│ └── task_manager_dark_mode.png 
+│ ├── Lightmode.png 
+│ └── Darkmode.png 
 ├── task_manager_gui.py                     # Main Python GUI application 
 ├── icon.ico                                # Custom icon for the app window 
 ├── README.md                               # Project overview and usage guide 
