@@ -1,5 +1,9 @@
 # Task Manager GUI
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 A simple, stylish Task Manager desktop app built with **Python** and **Tkinter**.
 
 Manage your daily tasks easily:
