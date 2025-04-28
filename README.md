@@ -67,4 +67,4 @@ task-manager-gui/
 ├── task_manager_gui.py                     # Main Python GUI application 
 ├── icon.ico                                # Custom icon for the app window 
 ├── README.md                               # Project overview and usage guide 
-├── LICENSE                                 # MIT License for open-source use
+└── LICENSE                                 # MIT License for open-source use
