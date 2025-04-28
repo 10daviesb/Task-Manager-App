@@ -18,7 +18,14 @@ Manage your daily tasks easily:
 ---
 
 ## 📸 Screenshots
-*soon™*
+
+### Light Mode
+
+![Light Mode](screenshots/lightmode.png)
+
+### Dark Mode
+
+![Dark Mode](screenshots/Darkmode.png)
 
 ---
 
