@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-blueviolet)
-![Last Commit](https://img.shields.io/github/last-commit/10daviesb/task-manager-gui)
+![Last Commit](https://img.shields.io/github/last-commit/10daviesb/task-manager-app)
 
 A simple, stylish Task Manager desktop app built with **Python** and **Tkinter**.
 
